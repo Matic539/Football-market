@@ -1,0 +1,15 @@
+/* Product Detail Page */
+.product-detail {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail p {
+    font-size: 1.2rem;
+    color: #666;
+}

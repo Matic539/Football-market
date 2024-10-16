@@ -1,0 +1,16 @@
+/* Products Page */
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+/* Cart Page */
+.cart {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cart h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cart p {
+    font-size: 1.2rem;
+    color: #666;
+}
