@@ -1,15 +1,104 @@
 /* Home Page */
 .home {
-    padding: 2rem;
+    padding: 100px 0;
     text-align: center;
 }
 
 .home h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333;
 }
 
 .home p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
+    margin-bottom: 10px;
+}
+
+.img-products {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-products img {
+    width: 450px; /* Asegura que todas las imágenes tengan el mismo ancho */
+    height: 500px; /* Asegura que todas las imágenes tengan la misma altura */
+    object-fit: cover;
+    margin: 20px 0; /* Ajusta la imagen dentro del contenedor sin perder proporción */
+}
+
+.img-products div {
+    width: 400px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    background-color: #ff4000;
+    padding: 50px 40px;
+    line-height: 60px;
+}
+
+.img-products div h2 {
+    font-size: 3.6rem;
+}
+
+.btn-products {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e63900;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.7s ease;
+}
+
+.btn-products:hover {
+    color: #dd3902;
+    background-color: #fff;
+}
+
+.leagues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.league-card {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e1e1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    margin: 20px 0;
+}
+
+.league-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.league-card p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.league-card:hover {
+    transform: scale(1.05);
 }
