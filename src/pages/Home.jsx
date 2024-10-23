@@ -1,11 +1,10 @@
 import React from 'react';
 import cc91 from '../assets/img/colocolo/colocolo91.webp';
-import uch11 from '../assets/img/uchile/uchile11.webp';
+import fcb96 from '../assets/img/barcelona/barcelona.webp';
 import chleague from '../assets/img/leagues/chleague.png';
 import enleague from '../assets/img/leagues/premierleague.png';
 import chselec from '../assets/img/leagues/selecciones.webp';
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
 import '../styles/pages/home.css';
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
                     <h2>COMPRA TUS CAMISETAS FAVORITAS</h2>
                     <Link to="/products" className="btn-products"><b>Ver Productos</b></Link>
                 </div>
-                <img src={uch11} alt="" />
+                <img src={fcb96} alt="" />
             </section>
 
             <h2>Busca por tus ligas favoritas</h2>
